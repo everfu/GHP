@@ -867,9 +867,23 @@ h2,
 }
 .repository-item {
   position: relative;
+  isolation: isolate;
   min-width: 0;
   border-radius: 6px;
-  transition: background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.repository-item::before {
+  content: '';
+  position: absolute;
+  inset: 0 -12px;
+  z-index: -1;
+  border-radius: inherit;
+  background: color-mix(in srgb, var(--canvas-raised) 60%, transparent);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease-out;
+}
+.repository-item:has(a:focus-visible)::before {
+  opacity: 1;
 }
 .repository-row {
   position: relative;
@@ -1339,9 +1353,11 @@ h2,
   .language-options button:hover,
   .history-list a:hover,
   .secondary-button:hover,
-  .chart-row:hover,
-  .repository-item:hover {
+  .chart-row:hover {
     background: var(--canvas-raised);
+  }
+  .repository-item:hover::before {
+    opacity: 1;
   }
   .language-trigger:hover > svg,
   .github-button:hover {
