@@ -1,0 +1,49 @@
+name: Bug report
+description: Report a reproducible problem in the app or API.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check existing issues first. For vulnerabilities, follow SECURITY.md instead of posting exploit details here.
+        Remove tokens, cookies, personal information, and private data from logs and screenshots.
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Include the app version or commit and whether this is a local or hosted instance.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the route, language, public test username, and actions needed to reproduce the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Add sanitized errors or screenshots if helpful.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser/version, operating system, viewport, theme, Node.js version, and deployment platform as applicable.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Before submitting
+      options:
+        - label: I have removed tokens, cookies, and private information.
+          required: true

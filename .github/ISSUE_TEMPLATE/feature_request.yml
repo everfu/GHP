@@ -1,0 +1,25 @@
+name: Feature request
+description: Suggest a focused improvement.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or user need
+      description: Who needs this, and what cannot they do today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe the result you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and constraints
+      description: Mention existing workarounds, GitHub API limitations, or accessibility needs.
+  - type: markdown
+    attributes:
+      value: Do not include tokens, cookies, or private account data.

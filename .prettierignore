@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+next-env.d.ts
+.env*
+LICENSE
+NOTICE
+docs/licenses/
+public/fonts/
+# Next.js manages this block; preserve its exact source.
+AGENTS.md
