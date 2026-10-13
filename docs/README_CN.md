@@ -4,6 +4,10 @@
 
 [English](../README.md) · [简体中文](README_CN.md) · [繁體中文](README_TW.md) · [Русский](README_RU.md) · [日本語](README_JP.md) · [Deutsch](README_DE.md) · [Français](README_FR.md) · [한국어](README_KR.md)
 
+![GHP Info 仪表盘预览](../public/ghp-info-preview-v2.png)
+
+_使用示例数据制作的设计预览图。_
+
 ## 功能
 
 - **开发者查询** — 支持用户名、`@用户名` 和 GitHub 主页链接，展示公开资料、粉丝、关注与注册时间。

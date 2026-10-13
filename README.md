@@ -4,6 +4,10 @@ Explore public GitHub developer profiles, repositories, and recent activity with
 
 [English](README.md) · [简体中文](docs/README_CN.md) · [繁體中文](docs/README_TW.md) · [Русский](docs/README_RU.md) · [日本語](docs/README_JP.md) · [Deutsch](docs/README_DE.md) · [Français](docs/README_FR.md) · [한국어](docs/README_KR.md)
 
+![GHP Info dashboard preview](public/ghp-info-preview-v2.png)
+
+_Design preview with demo data._
+
 ## Features
 
 - **Developer lookup** — Usernames, `@username`, or GitHub profile URLs; public profiles, followers, following, and join dates.

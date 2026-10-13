@@ -19,10 +19,10 @@ const mono = localFont({
   display: 'swap',
 });
 const sharingImage = {
-  url: '/opengraph-image.png',
-  width: 1200,
-  height: 630,
-  alt: 'GHP Info — Explore GitHub developers, public profiles, repositories, and recent activity.',
+  url: '/ghp-info-preview-v2.png',
+  width: 1730,
+  height: 909,
+  alt: 'GHP Info — Dark dashboard preview with demo developer data, repository analytics, and recent activity.',
 };
 export const metadata: Metadata = {
   metadataBase: new URL(
