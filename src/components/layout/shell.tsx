@@ -189,7 +189,7 @@ export function Header() {
               </AnimatePresence>
             </div>
             <a
-              href="https://github.com"
+              href="https://github.com/everfu/GHP"
               className="icon-button github-button"
               target="_blank"
               rel="noopener noreferrer"
